@@ -1,5 +1,5 @@
 const { fs } = require('node:fs');
-function countStudent(filePath) {
+function countStudents(filePath) {
 	const data = fs.readFileSync(filePath, 'utf-8')
 	let total = 0;
 	let CS = 0;
@@ -30,4 +30,4 @@ function countStudent(filePath) {
 	}
 }
 
-module.exports = countStudent;
+module.exports = countStudents;

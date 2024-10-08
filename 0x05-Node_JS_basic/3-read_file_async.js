@@ -1,6 +1,6 @@
 const fs = require('node:fs/promises');
 
-async function countStudent(filePath) {
+async function countStudents(filePath) {
 	try {	
 		const data = await fs.readFile(filePath, { encoding: 'utf8'});
 		let total = 0;
@@ -30,4 +30,4 @@ async function countStudent(filePath) {
 		throw new Error('Cannot load database');
 	}
 }
-module.exports = countStudent;
+module.exports = countStudents;
