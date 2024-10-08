@@ -11,3 +11,4 @@ second_command = process.stdin.on('readable', function() {
 
 exec(first_command.toString() &&
         second_command.toString() );
+console.log(This important software is now closing);
