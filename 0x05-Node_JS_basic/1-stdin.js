@@ -6,7 +6,6 @@ second_command = process.stdin.on('readable', function() {
                 if (input !== null) {
                         process.stdout.write(`Your name is: ${input}`);
                 }
-        console.log("This important software is now closing");
 });
 
 
